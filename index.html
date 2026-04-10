@@ -364,20 +364,34 @@
                                     <option value="Workshop">Workshop</option>
                                     <option value="Deep Dive">Deep Dive</option>
                                     <option value="Skill Clinic">Skill Clinic</option>
+                                    <option value="Diagnostic Day">Diagnostic Day</option>
                                 </optgroup>
                                 <optgroup label="Výkonnostní">
-                                    <option value="Výzva">Výzva</option>
+                                    <option value="Výzva">Výzva / Challenge</option>
                                     <option value="Bootcamp">Bootcamp</option>
                                     <option value="Turnaj">Turnaj</option>
+                                    <option value="Flash Challenge">Flash Challenge</option>
                                 </optgroup>
                                 <optgroup label="Výjezdové">
                                     <option value="Retreat">Retreat</option>
                                     <option value="Survival Weekend">Survival Weekend</option>
-                                    <option value="Expedition">Expedition</option>
+                                    <option value="Expedition">Expedition / Přechod</option>
+                                    <option value="Pop-up Basecamp">Pop-up Basecamp</option>
                                 </optgroup>
                                 <optgroup label="Komunitní">
+                                    <option value="Komunitní setkání">Komunitní setkání</option>
                                     <option value="Fire Talk">Fire Talk</option>
+                                    <option value="Fuck-up Night">Fuck-up Night</option>
+                                    <option value="Guest Story">Guest Story</option>
+                                    <option value="Panel">Panel / Kulatý stůl</option>
+                                    <option value="Cooking Session">Cooking Session</option>
+                                    <option value="Docu Night">Docu Night</option>
                                     <option value="Skill Swap">Skill Swap</option>
+                                </optgroup>
+                                <optgroup label="Dlouhodobé">
+                                    <option value="Accountability Sprint">Accountability Sprint</option>
+                                    <option value="Community Festival">Community Festival</option>
+                                    <option value="The Academy">The Academy</option>
                                 </optgroup>
                                 <optgroup label="Ostatní">
                                     <option value="Běh">Běh</option>
@@ -391,21 +405,213 @@
                             <label>2️⃣ Zaměření</label>
                             <select id="eventFocus">
                                 <option value="">-- Vyber zaměření --</option>
-                                <optgroup label="Sporty">
-                                    <option value="Trail running">Trail running</option>
-                                    <option value="Bouldering">Bouldering</option>
-                                    <option value="CrossFit">CrossFit</option>
+                                
+                                <optgroup label="Sporty — Raketové">
                                     <option value="Padel">Padel</option>
+                                    <option value="Tenis">Tenis</option>
+                                    <option value="Squash">Squash</option>
+                                    <option value="Badminton">Badminton</option>
+                                    <option value="Pickleball">Pickleball</option>
+                                    <option value="Stolní tenis">Stolní tenis</option>
+                                    <option value="Beach tenis">Beach tenis</option>
+                                    <option value="Beach volejbal">Beach volejbal</option>
+                                    <option value="Footvolley">Footvolley</option>
+                                </optgroup>
+                                
+                                <optgroup label="Sporty — Týmové">
+                                    <option value="Basketbal">Basketbal</option>
+                                    <option value="Streetball">Streetball</option>
+                                    <option value="Fotbal">Fotbal</option>
+                                    <option value="Futsal">Futsal</option>
+                                    <option value="Volejbal">Volejbal</option>
+                                    <option value="Ultimate frisbee">Ultimate frisbee</option>
+                                    <option value="Floorball">Floorball</option>
+                                    <option value="Rugby">Rugby</option>
+                                    <option value="Americký fotbal">Americký fotbal</option>
+                                    <option value="Lacrosse">Lacrosse</option>
+                                </optgroup>
+                                
+                                <optgroup label="Sporty — Vytrvalostní">
+                                    <option value="Trail running">Trail running</option>
+                                    <option value="Silniční běh">Silniční běh</option>
+                                    <option value="Orientační běh">Orientační běh</option>
+                                    <option value="Ultramaraton příprava">Ultramaraton příprava</option>
+                                    <option value="Běžecká technika">Běžecká technika</option>
+                                    <option value="Trailová chůze / hiking">Trailová chůze / hiking</option>
                                     <option value="MTB">MTB</option>
+                                    <option value="Gravel cyklistika">Gravel cyklistika</option>
+                                    <option value="Silniční cyklistika">Silniční cyklistika</option>
+                                    <option value="Bikepacking">Bikepacking</option>
+                                    <option value="BMX">BMX</option>
+                                    <option value="Downhill">Downhill</option>
                                 </optgroup>
-                                <optgroup label="Rozvoj">
-                                    <option value="Mental toughness">Mental toughness</option>
-                                    <option value="Goal setting">Goal setting</option>
-                                    <option value="Práce s dechem">Práce s dechem</option>
+                                
+                                <optgroup label="Sporty — Silové a funkční">
+                                    <option value="CrossFit">CrossFit</option>
+                                    <option value="Hyrox">Hyrox</option>
+                                    <option value="Funkční trénink">Funkční trénink</option>
+                                    <option value="Kettlebell">Kettlebell</option>
+                                    <option value="Kalistenika">Kalistenika</option>
+                                    <option value="Street workout">Street workout</option>
+                                    <option value="Vzpírání">Vzpírání</option>
+                                    <option value="Powerlifting">Powerlifting</option>
+                                    <option value="Strongman">Strongman</option>
+                                    <option value="Sandbag trénink">Sandbag trénink</option>
                                 </optgroup>
-                                <optgroup label="Komunita">
-                                    <option value="Sdílení příběhů">Sdílení příběhů</option>
-                                    <option value="Accountability">Accountability</option>
+                                
+                                <optgroup label="Sporty — Úpolové">
+                                    <option value="Box (kondice)">Box (kondice)</option>
+                                    <option value="Thajský box">Thajský box</option>
+                                    <option value="Kickbox">Kickbox</option>
+                                    <option value="BJJ">BJJ</option>
+                                    <option value="Grappling">Grappling</option>
+                                    <option value="Judo">Judo</option>
+                                    <option value="Karate">Karate</option>
+                                    <option value="MMA">MMA</option>
+                                    <option value="Šerm">Šerm</option>
+                                </optgroup>
+                                
+                                <optgroup label="Sporty — Outdoor a adventure">
+                                    <option value="Via ferrata">Via ferrata</option>
+                                    <option value="Skalní lezení">Skalní lezení</option>
+                                    <option value="Bouldering">Bouldering</option>
+                                    <option value="Lezecká stěna">Lezecká stěna</option>
+                                    <option value="Slackline">Slackline</option>
+                                    <option value="Highlining">Highlining</option>
+                                    <option value="Parkour">Parkour</option>
+                                    <option value="Paddleboarding">Paddleboarding</option>
+                                    <option value="Kayak">Kayak</option>
+                                    <option value="Kanoistika">Kanoistika</option>
+                                    <option value="Rafting">Rafting</option>
+                                    <option value="Wakeboard">Wakeboard</option>
+                                    <option value="Kitesurfing">Kitesurfing</option>
+                                    <option value="Windsurfing">Windsurfing</option>
+                                    <option value="Plavání v otevřené vodě">Plavání v otevřené vodě</option>
+                                    <option value="Freediving">Freediving</option>
+                                    <option value="Potápění">Potápění</option>
+                                </optgroup>
+                                
+                                <optgroup label="Sporty — Zimní">
+                                    <option value="Skialpy">Skialpy</option>
+                                    <option value="Freeride lyžování">Freeride lyžování</option>
+                                    <option value="Snowboarding">Snowboarding</option>
+                                    <option value="Sněžnice">Sněžnice</option>
+                                    <option value="Lední hokej">Lední hokej</option>
+                                    <option value="Curling">Curling</option>
+                                </optgroup>
+                                
+                                <optgroup label="Sporty — Ostatní">
+                                    <option value="Golf">Golf</option>
+                                    <option value="Disc golf">Disc golf</option>
+                                    <option value="Lukostřelba">Lukostřelba</option>
+                                    <option value="Motokára">Motokára</option>
+                                    <option value="Paintball">Paintball</option>
+                                    <option value="Laser game">Laser game</option>
+                                    <option value="Airsoft">Airsoft</option>
+                                    <option value="Jóga">Jóga</option>
+                                    <option value="Pilates">Pilates</option>
+                                    <option value="Tai-chi">Tai-chi</option>
+                                    <option value="Akrobatické disciplíny">Akrobatické disciplíny</option>
+                                    <option value="Tanec">Tanec</option>
+                                    <option value="Breakdance">Breakdance</option>
+                                    <option value="Capoeira">Capoeira</option>
+                                </optgroup>
+                                
+                                <optgroup label="Rozvoj — Mindset a odolnost">
+                                    <option value="Práce s dechem">Práce s dechem (Wim Hof, box breathing)</option>
+                                    <option value="Otužování">Otužování (ledové koupele, kryoterapie)</option>
+                                    <option value="Vizualizace a mentální trénink">Vizualizace a mentální trénink</option>
+                                    <option value="Flow state">Flow state</option>
+                                    <option value="Práce se strachem">Práce se strachem</option>
+                                    <option value="Psychická odolnost">Psychická odolnost</option>
+                                    <option value="Koncentrace a fokus">Koncentrace a fokus</option>
+                                    <option value="Ego a identita">Ego a identita</option>
+                                    <option value="Seberegulace">Seberegulace a emoční inteligence</option>
+                                </optgroup>
+                                
+                                <optgroup label="Rozvoj — Biohacking a tělo">
+                                    <option value="Optimalizace spánku">Optimalizace spánku</option>
+                                    <option value="Výživa pro výkon">Výživa pro výkon</option>
+                                    <option value="Suplementace">Suplementace</option>
+                                    <option value="Analýza wearable dat">Analýza wearable dat (HRV, recovery)</option>
+                                    <option value="Krevní testy a biomarkery">Krevní testy a biomarkery</option>
+                                    <option value="VO2max a aerobní kapacita">VO2max a aerobní kapacita</option>
+                                    <option value="Hormonální zdraví">Hormonální zdraví</option>
+                                    <option value="Cold exposure protokoly">Cold exposure protokoly</option>
+                                    <option value="Sauna protokoly">Sauna protokoly</option>
+                                    <option value="Red light therapy">Red light therapy</option>
+                                    <option value="Mobilita a pohybový screening">Mobilita a pohybový screening</option>
+                                    <option value="Střevní mikrobiom">Střevní mikrobiom</option>
+                                    <option value="Prevence zranění">Prevence zranění a regenerace</option>
+                                </optgroup>
+                                
+                                <optgroup label="Rozvoj — Produktivita a cíle">
+                                    <option value="Goal setting">Goal setting (SMART, OKR)</option>
+                                    <option value="Budování návyků">Budování návyků</option>
+                                    <option value="Deep work">Deep work a soustředění</option>
+                                    <option value="Energetický management">Energetický management</option>
+                                    <option value="Systémy a PKM">Systémy a PKM (second brain)</option>
+                                    <option value="Rozhodování">Rozhodování (mental models)</option>
+                                    <option value="Prokrastinace">Prokrastinace</option>
+                                    <option value="Ranní a večerní rutiny">Ranní a večerní rutiny</option>
+                                    <option value="Delegování a prioritizace">Delegování a prioritizace</option>
+                                </optgroup>
+                                
+                                <optgroup label="Rozvoj — Sociální dovednosti">
+                                    <option value="Komunikace a sebeprezentace">Komunikace a sebeprezentace</option>
+                                    <option value="Veřejné vystupování">Veřejné vystupování</option>
+                                    <option value="Sebedůvěra">Sebedůvěra (body language)</option>
+                                    <option value="Leadership">Leadership</option>
+                                    <option value="Networking">Networking</option>
+                                    <option value="Personal branding">Personal branding</option>
+                                    <option value="Podnikání a side projekty">Podnikání a side projekty</option>
+                                    <option value="Osobní finance">Osobní finance</option>
+                                    <option value="Kariérní navigace">Kariérní navigace</option>
+                                    <option value="Kreativita a inovace">Kreativita a inovace</option>
+                                </optgroup>
+                                
+                                <optgroup label="Komunita — Sdílení a příběhy">
+                                    <option value="Fire Talk">Fire Talk</option>
+                                    <option value="Fuck-up Night">Fuck-up Night</option>
+                                    <option value="Guest Story">Guest Story</option>
+                                    <option value="Otevřený kruh">Otevřený kruh</option>
+                                    <option value="Sdílení cílů ve skupině">Sdílení cílů ve skupině</option>
+                                    <option value="Zpětná vazba ve skupině">Zpětná vazba ve skupině</option>
+                                </optgroup>
+                                
+                                <optgroup label="Komunita — Kooperace a growth">
+                                    <option value="Accountability pairs">Accountability pairs</option>
+                                    <option value="Peer coaching">Peer coaching</option>
+                                    <option value="Skill swap">Skill swap</option>
+                                    <option value="Skupinová výzva">Skupinová výzva</option>
+                                    <option value="Mastermind skupina">Mastermind skupina</option>
+                                    <option value="Mentor-mentee párování">Mentor-mentee párování</option>
+                                </optgroup>
+                                
+                                <optgroup label="Komunita — Soutěž a motivace">
+                                    <option value="Community awards">Community awards</option>
+                                    <option value="Leaderboard výzva">Leaderboard výzva</option>
+                                    <option value="Týmová soutěž">Týmová soutěž</option>
+                                    <option value="Měsíční challenge">Měsíční challenge</option>
+                                    <option value="Osobní rekordy">Osobní rekordy</option>
+                                </optgroup>
+                                
+                                <optgroup label="Komunita — Kultura a zábava">
+                                    <option value="Cooking session">Cooking session</option>
+                                    <option value="Docu night">Docu night</option>
+                                    <option value="Hudební večer">Hudební večer</option>
+                                    <option value="Kreativní výstup">Kreativní výstup (foto, video)</option>
+                                    <option value="Board game night">Board game night</option>
+                                    <option value="Spontánní aktivity">Spontánní aktivity</option>
+                                </optgroup>
+                                
+                                <optgroup label="Komunita — Rituály a systémy">
+                                    <option value="Otevírací kruh">Otevírací kruh</option>
+                                    <option value="Závěrečná věta">Závěrečná věta</option>
+                                    <option value="Společný záběr">Společný záběr</option>
+                                    <option value="Komunitní playlist">Komunitní playlist</option>
+                                    <option value="Buddy systém">Buddy systém</option>
+                                    <option value="Digitální komunita">Digitální komunita</option>
                                 </optgroup>
                             </select>
                         </div>
@@ -414,19 +620,166 @@
                             <label>3️⃣ Lokace</label>
                             <select id="eventLocation">
                                 <option value="">-- Vyber lokaci --</option>
-                                <optgroup label="Hory - Česko">
-                                    <option value="Lysá hora, Beskydy">Lysá hora, Beskydy</option>
-                                    <option value="Praděd, Jeseníky">Praděd, Jeseníky</option>
-                                    <option value="Sněžka, Krkonoše">Sněžka, Krkonoše</option>
+                                
+                                <optgroup label="Hory — Tatry (SK)">
+                                    <option value="Zelené pleso">Zelené pleso</option>
+                                    <option value="Popradské pleso">Popradské pleso</option>
+                                    <option value="Štrbské pleso">Štrbské pleso</option>
+                                    <option value="Symbolický cintorín">Symbolický cintorín</option>
+                                    <option value="Kriváň">Kriváň</option>
+                                    <option value="Rysy">Rysy</option>
+                                    <option value="Téryho chata">Téryho chata</option>
+                                    <option value="Zbojnícka chata">Zbojnícka chata</option>
+                                    <option value="Sliezsky dom">Sliezsky dom</option>
+                                    <option value="Mengusovská dolina">Mengusovská dolina</option>
+                                    <option value="Bielovodská dolina">Bielovodská dolina</option>
                                 </optgroup>
-                                <optgroup label="Hory - Slovensko">
-                                    <option value="Tatry">Tatry</option>
-                                    <option value="Malá Fatra">Malá Fatra</option>
+                                
+                                <optgroup label="Hory — Beskydy (CZ/SK)">
+                                    <option value="Pustevny">Pustevny</option>
+                                    <option value="Lysá hora">Lysá hora</option>
+                                    <option value="Radhošť">Radhošť</option>
+                                    <option value="Velký Javorník">Velký Javorník</option>
+                                    <option value="Salajka">Salajka</option>
+                                    <option value="Soláň">Soláň</option>
+                                    <option value="Bílá (ski resort)">Bílá (ski resort)</option>
+                                    <option value="Malenovice">Malenovice</option>
+                                    <option value="Mosty u Jablunkova">Mosty u Jablunkova</option>
+                                    <option value="Makyta">Makyta</option>
                                 </optgroup>
-                                <optgroup label="Město - Ostrava">
-                                    <option value="BigWall">BigWall</option>
-                                    <option value="CrossFit Vítkovice">CrossFit Vítkovice</option>
-                                    <option value="Landek Park">Landek Park</option>
+                                
+                                <optgroup label="Hory — Jeseníky">
+                                    <option value="Praděd">Praděd</option>
+                                    <option value="Červenohorské sedlo">Červenohorské sedlo</option>
+                                    <option value="Ramzová">Ramzová</option>
+                                    <option value="Ovčárna">Ovčárna</option>
+                                    <option value="Skřítek">Skřítek</option>
+                                    <option value="Petrovy kameny">Petrovy kameny</option>
+                                    <option value="Rejvíz">Rejvíz</option>
+                                </optgroup>
+                                
+                                <optgroup label="Hory — Krkonoše">
+                                    <option value="Sněžka">Sněžka</option>
+                                    <option value="Špindlerův Mlýn">Špindlerův Mlýn</option>
+                                    <option value="Harrachov">Harrachov</option>
+                                    <option value="Labská bouda">Labská bouda</option>
+                                    <option value="Luční bouda">Luční bouda</option>
+                                    <option value="Pec pod Sněžkou">Pec pod Sněžkou</option>
+                                </optgroup>
+                                
+                                <optgroup label="Hory — Šumava">
+                                    <option value="Boubín">Boubín</option>
+                                    <option value="Trojmezí">Trojmezí</option>
+                                    <option value="Černé jezero">Černé jezero</option>
+                                    <option value="Čertovo jezero">Čertovo jezero</option>
+                                    <option value="Kvilda">Kvilda</option>
+                                    <option value="Modrava">Modrava</option>
+                                </optgroup>
+                                
+                                <optgroup label="Hory — Slovensko (ostatní)">
+                                    <option value="Nízké Tatry (Chopok)">Nízké Tatry (Chopok)</option>
+                                    <option value="Jasná">Jasná</option>
+                                    <option value="Ďumbier">Ďumbier</option>
+                                    <option value="Malá Fatra (Vrátna)">Malá Fatra (Vrátna)</option>
+                                    <option value="Roháče">Roháče</option>
+                                    <option value="Pieniny (Dunajec)">Pieniny (Dunajec)</option>
+                                    <option value="Červený kláštor">Červený kláštor</option>
+                                </optgroup>
+                                
+                                <optgroup label="Hory — Zahraničí">
+                                    <option value="Zakopane (PL)">Zakopane (PL)</option>
+                                    <option value="Morské oko (PL)">Morské oko (PL)</option>
+                                    <option value="Giewont (PL)">Giewont (PL)</option>
+                                    <option value="Salzkammergut (AT)">Salzkammergut (AT)</option>
+                                    <option value="Ötztal (AT)">Ötztal (AT)</option>
+                                    <option value="Zillertal (AT)">Zillertal (AT)</option>
+                                    <option value="Grossglockner (AT)">Grossglockner (AT)</option>
+                                    <option value="Tre Cime (IT)">Tre Cime (IT)</option>
+                                    <option value="Lago di Braies (IT)">Lago di Braies (IT)</option>
+                                    <option value="Val Gardena (IT)">Val Gardena (IT)</option>
+                                    <option value="Triglavský NP (SI)">Triglavský NP (SI)</option>
+                                    <option value="Soča Valley (SI)">Soča Valley (SI)</option>
+                                </optgroup>
+                                
+                                <optgroup label="Voda — Přehrady a jezera">
+                                    <option value="Lipno">Lipno</option>
+                                    <option value="Vranovská přehrada">Vranovská přehrada</option>
+                                    <option value="Orlická přehrada">Orlická přehrada</option>
+                                    <option value="Máchovo jezero">Máchovo jezero</option>
+                                    <option value="Brněnská přehrada">Brněnská přehrada</option>
+                                    <option value="Dalešická přehrada">Dalešická přehrada</option>
+                                    <option value="Žermanická přehrada">Žermanická přehrada</option>
+                                    <option value="Liptovská Mara (SK)">Liptovská Mara (SK)</option>
+                                    <option value="Oravská přehrada (SK)">Oravská přehrada (SK)</option>
+                                    <option value="Zemplínska šírava (SK)">Zemplínska šírava (SK)</option>
+                                    <option value="Balaton (HU)">Balaton (HU)</option>
+                                    <option value="Bledské jezero (SI)">Bledské jezero (SI)</option>
+                                    <option value="Bohinj (SI)">Bohinj (SI)</option>
+                                </optgroup>
+                                
+                                <optgroup label="Voda — Řeky a rafting">
+                                    <option value="Váh (SK)">Váh - rafting (SK)</option>
+                                    <option value="Soča (SI)">Soča (SI)</option>
+                                    <option value="Dunajec (SK/PL)">Dunajec (SK/PL)</option>
+                                    <option value="Vltava">Vltava - kanoistika</option>
+                                    <option value="Ohře">Ohře - kanoistika</option>
+                                    <option value="Sázava">Sázava</option>
+                                </optgroup>
+                                
+                                <optgroup label="Voda — Moře">
+                                    <option value="Dalmácie (HR)">Dalmácie (HR)</option>
+                                    <option value="Hvar (HR)">Hvar (HR)</option>
+                                    <option value="Brač (HR)">Brač (HR)</option>
+                                    <option value="Vis (HR)">Vis (HR)</option>
+                                    <option value="Korčula (HR)">Korčula (HR)</option>
+                                    <option value="Černá Hora">Černá Hora</option>
+                                    <option value="Albánie">Albánie</option>
+                                    <option value="Lefkada (GR)">Lefkada (GR)</option>
+                                    <option value="Kefalonia (GR)">Kefalonia (GR)</option>
+                                    <option value="Zakynthos (GR)">Zakynthos (GR)</option>
+                                    <option value="Kanárské ostrovy">Kanárské ostrovy</option>
+                                </optgroup>
+                                
+                                <optgroup label="Město — Sportovní venues">
+                                    <option value="Lezecké stěny">Lezecké stěny</option>
+                                    <option value="Box a MMA gymy">Box a MMA gymy</option>
+                                    <option value="CrossFit boxy">CrossFit boxy</option>
+                                    <option value="Padel kurty">Padel kurty</option>
+                                    <option value="Squashová centra">Squashová centra</option>
+                                    <option value="Atletické stadiony">Atletické stadiony</option>
+                                    <option value="Sportovní haly">Sportovní haly</option>
+                                    <option value="Aquaparky">Aquaparky</option>
+                                    <option value="Pump tracky">Pump tracky</option>
+                                    <option value="Skateparky">Skateparky</option>
+                                </optgroup>
+                                
+                                <optgroup label="Město — Netradiční venues">
+                                    <option value="Rooftopy">Rooftopy a střešní terasy</option>
+                                    <option value="Industriální haly">Industriální haly a warehousy</option>
+                                    <option value="Opuštěné továrny">Opuštěné továrny</option>
+                                    <option value="Privátní kina">Privátní kina a promítárny</option>
+                                    <option value="Galerie">Galerie</option>
+                                    <option value="Coworkingové prostory">Coworkingové prostory</option>
+                                    <option value="Pivovary">Pivovary</option>
+                                    <option value="Vinné sklepy">Vinné sklepy</option>
+                                    <option value="Sauna centra">Sauna centra</option>
+                                    <option value="Floatation centra">Floatation centra</option>
+                                    <option value="Restaurace (privátní sál)">Restaurace (privátní sál)</option>
+                                </optgroup>
+                                
+                                <optgroup label="Příroda — Alternativní ubytování">
+                                    <option value="Glamping lokality">Glamping lokality</option>
+                                    <option value="Privátní chaty v lese">Privátní chaty v lese</option>
+                                    <option value="Horské boudy">Horské boudy</option>
+                                    <option value="Roubenky">Roubenky</option>
+                                    <option value="Jurty">Jurty</option>
+                                    <option value="Tiny houses">Tiny houses</option>
+                                    <option value="Treehouse ubytování">Treehouse ubytování</option>
+                                    <option value="Farmstay a statky">Farmstay a statky</option>
+                                    <option value="Kláštery a historické budovy">Kláštery a historické budovy</option>
+                                    <option value="Hrady a zámky">Hrady a zámky (pronájem)</option>
+                                    <option value="Jeskyně a krasové oblasti">Jeskyně a krasové oblasti</option>
+                                    <option value="Ostrovy a chaty na vodě">Ostrovy a chaty na vodě</option>
                                 </optgroup>
                             </select>
                         </div>
@@ -545,18 +898,41 @@
 
         // Event type colors
         const eventColors = {
+            // Vzdělávací - fialová
             'Workshop': '#9f7aea',
             'Deep Dive': '#9f7aea',
             'Skill Clinic': '#9f7aea',
+            'Diagnostic Day': '#9f7aea',
+            
+            // Výkonnostní - oranžová
             'Výzva': '#ed8936',
             'Bootcamp': '#ed8936',
             'Turnaj': '#ed8936',
+            'Flash Challenge': '#ed8936',
+            
+            // Výjezdové - zelená
             'Retreat': '#48bb78',
             'Survival Weekend': '#48bb78',
             'Expedition': '#38b2ac',
+            'Pop-up Basecamp': '#48bb78',
+            
+            // Komunitní - modrá
+            'Komunitní setkání': '#667eea',
             'Fire Talk': '#667eea',
+            'Fuck-up Night': '#667eea',
+            'Guest Story': '#667eea',
+            'Panel': '#667eea',
+            'Cooking Session': '#667eea',
+            'Docu Night': '#667eea',
             'Skill Swap': '#667eea',
-            'Běh': '#667eea',
+            
+            // Dlouhodobé - tmavě fialová
+            'Accountability Sprint': '#805ad5',
+            'Community Festival': '#d53f8c',
+            'The Academy': '#805ad5',
+            
+            // Ostatní
+            'Běh': '#4299e1',
             'Výšlap': '#48bb78',
             'Trénink': '#f6ad55'
         };
